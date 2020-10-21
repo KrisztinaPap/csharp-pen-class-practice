@@ -37,3 +37,6 @@ Research and implement a ToString() override that will output a string in the fo
 
 ## Trello Project Board:
 https://trello.com/b/jXgRVdWw/c-oop-practice-pen
+
+## References/Citations
+- [submain: Parameterless Constructor](https://blog.submain.com/c-constructor-usage-examples-best-practices/)
