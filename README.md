@@ -40,3 +40,4 @@ https://trello.com/b/jXgRVdWw/c-oop-practice-pen
 
 ## References/Citations
 - [submain: Parameterless Constructor](https://blog.submain.com/c-constructor-usage-examples-best-practices/)
+- Lindsey Graham showed me a better way to do the challenge using the (ToString() method! (I refactored at his suggestion))

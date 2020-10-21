@@ -70,12 +70,18 @@ namespace pen_class_practice
         // https://blog.submain.com/c-constructor-usage-examples-best-practices/
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder($"This is a {Colour} pen ");
+            // Refactored at Lindsey Graham's suggestion! Thank you!
+            string lidText = (HasLid == true) ? "with" : "without";
+            double percentageText = Math.Round((((MaxInk - InkLevel) / MaxInk) * 100) / 5) * 5;
+            return $"This is a {Colour} {Brand} pen {lidText} a lid with approximately {percentageText}% of the ink remaining.";
+
+/*          StringBuilder sb = new StringBuilder($"This is a {Colour} pen ");
             sb.Append( (HasLid == true ) ? "with" : "without");
             sb.Append($" a lid with approximately ");
             sb.Append(Math.Round((((MaxInk - InkLevel) / MaxInk) * 100)/5)*5);
             sb.Append("% of the ink remaining.");
-            return sb.ToString();
+            return sb.ToString();*/
+            
         }
 
        
